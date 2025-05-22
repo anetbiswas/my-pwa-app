@@ -1,12 +1,20 @@
 {
-  "name": "My App",
-  "short_name": "App",
+  "name": "My PWA App",
+  "short_name": "PWAApp",
   "start_url": "index.html",
-  "display": "fullscreen",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#000000",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "aadit.png",
       "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "aadit.png",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
