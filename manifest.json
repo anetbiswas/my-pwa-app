@@ -1,0 +1,21 @@
+{
+  "name": "Aadit's PWA App",
+  "short_name": "AaditPWA",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#00000000",
+  "theme_color": "#00000000",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "aadit.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "aadit.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
