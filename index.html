@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff" id="theme-color-meta">
   <link rel="stylesheet" href="style.css" type="text/css" media="all" />
   <link rel="manifest" href="manifest.json" />
   <title>HTML</title>
@@ -18,6 +19,19 @@
  
  
  
+  <button onclick="setDark()">Dark Mode</button>
+  <button onclick="setLight()">Light Mode</button>
+
+  <script>
+    function setDark() {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000000');
+    }
+
+    function setLight() {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff');
+    }
+  </script>
+
  
  
  
